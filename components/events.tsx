@@ -7,26 +7,26 @@ import { motion } from "framer-motion"
 
 const events = [
   {
-    name: "Annual Prayer Conference",
-    date: "June 15-17, 2024",
-    time: "9:00 AM - 5:00 PM",
+    name: "40 days Annual Fasting & Vigil",
+    date: "June 1 - July 10, 2025",
+    time: "12:00 AM - 2:00 AM",
     location: "Main Sanctuary",
     description:
-      "Three days of intensive prayer, worship, and spiritual impartation with guest ministers from around the world.",
+      "40 days of intensive prayer, worship, and spiritual impartation with guest ministers from around the world.",
     highlight: true,
   },
   {
-    name: "Youth Revival Weekend",
-    date: "July 22-23, 2024",
+    name: "Youth Revival Week",
+    date: "July 22-23, 2025",
     time: "6:00 PM - 9:00 PM",
-    location: "Youth Center",
+    location: "Ayditorium",
     description:
       "A special weekend dedicated to empowering the youth through worship, teachings, and fellowship activities.",
     highlight: false,
   },
   {
-    name: "Healing and Deliverance Service",
-    date: "August 5, 2024",
+    name: "Prayer For Protection",
+    date: "May 5, 2025",
     time: "5:00 PM - 8:00 PM",
     location: "Main Sanctuary",
     description: "A powerful evening service focused on divine healing, deliverance, and spiritual breakthrough.",
@@ -34,7 +34,7 @@ const events = [
   },
   {
     name: "Community Outreach Day",
-    date: "September 10, 2024",
+    date: "Third Week of Every Month",
     time: "10:00 AM - 2:00 PM",
     location: "Community Center",
     description: "Serving our community through food distribution, free health screenings, and children's activities.",
@@ -42,7 +42,7 @@ const events = [
   },
   {
     name: "Christmas Celebration",
-    date: "December 24, 2024",
+    date: "December 25, 2025",
     time: "7:00 PM - 9:00 PM",
     location: "Main Sanctuary",
     description: "A special Christmas Eve service with carols, drama presentation, and a message of hope.",

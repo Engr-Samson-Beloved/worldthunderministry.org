@@ -45,8 +45,8 @@ export default function Home() {
                 <MapPin className="h-6 w-6 text-gold-500 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-xl mb-2">Our Address</h3>
-                  <p className="text-blue-100">123 Faith Avenue, Spiritual District</p>
-                  <p className="text-blue-100">City, Country</p>
+                  <p className="text-blue-100">Redemption Mountain, Oladayo Close, Ayeyemi, Ondo, Ondo State</p>
+                  <p className="text-blue-100">Ondo, Nigeria</p>
                 </div>
               </div>
 
@@ -54,8 +54,8 @@ export default function Home() {
                 <Phone className="h-6 w-6 text-gold-500 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-xl mb-2">Phone</h3>
-                  <p className="text-blue-100">+1 (234) 567-8900</p>
-                  <p className="text-blue-100">+1 (234) 567-8901</p>
+                  <p className="text-blue-100">+234 (806) 788-8456</p>
+                  <p className="text-blue-100">+234 (904) 053-7645</p>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ export default function Home() {
                 <Mail className="h-6 w-6 text-gold-500 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-xl mb-2">Email</h3>
-                  <p className="text-blue-100">info@wotrem.org</p>
+                  <p className="text-blue-100">worldthunderministry@gmail.com</p>
                 </div>
               </div>
 
@@ -71,8 +71,8 @@ export default function Home() {
                 <h3 className="font-semibold text-xl mb-2">Service Times</h3>
                 <ul className="space-y-2 text-blue-100">
                   <li>Sunday Worship: 9:00 AM - 12:00 PM</li>
-                  <li>Wednesday Bible Study: 6:00 PM - 8:00 PM</li>
-                  <li>Friday Prayer Meeting: 7:00 PM - 9:00 PM</li>
+                  <li>Wednesday Bible Study: 5:00 PM - 7:00 PM</li>
+                  <li>Friday Prayer Meeting: 9:00 AM - 12:00 PM</li>
                 </ul>
               </div>
             </div>
