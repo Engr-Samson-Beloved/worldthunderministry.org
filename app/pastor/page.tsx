@@ -14,7 +14,7 @@ export default function PastorPage() {
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Home
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Prophet. S.P. Olabanji</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Prophet. Sunday Olabanji</h1>
           <p className="text-xl text-blue-100">
             Founder & General Overseer of World Thunder Revival And Evangelical Ministry
           </p>
@@ -64,7 +64,7 @@ export default function PastorPage() {
             <section>
               <h2 className="text-2xl font-bold text-blue-900 mb-4">Early Life & Calling</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-              Prophet S.P. Olabanji hails from Ondo State, Nigeria. He gave his life to Christ at the age of 18
+              Prophet Sunday Olabanji Aka S.P. Olabanji, hails from Ondo State, Nigeria. He gave his life to Christ at the age of 18
                and was called into ministry shortly after. Driven by a deep hunger for the Word and revival,
                 he enrolled at the CAC Babajide School of Prophets and Evangelists, where his spiritual training
                  was shaped. As a district evangelist, he began laying the foundation for a calling far greater
@@ -216,7 +216,7 @@ export default function PastorPage() {
 
             <div className="flex justify-center mt-10">
               <Link href="/#contact">
-                <Button className="bg-blue-700 hover:bg-blue-600">Contact Pastor John</Button>
+                <Button className="bg-blue-700 hover:bg-blue-600">Contact Prophet Sunday Olabanji</Button>
               </Link>
             </div>
           </div>
