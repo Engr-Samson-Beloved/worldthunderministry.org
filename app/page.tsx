@@ -7,6 +7,49 @@ import Events from "@/components/events"
 import School from "@/components/school"
 import Socials from "@/components/socials"
 import ContactForm from "@/components/contact-form"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "WOTREM | World Thunder Revival And Evangelical Ministry",
+  description:
+    "Welcome to World Thunder Revival And Evangelical Ministry (WOTREM). Experience powerful worship, community fellowship, and spiritual growth through our services, events, and outreach programs.",
+  keywords:
+    "WOTREM, World Thunder Revival And Evangelical Ministry, church, worship, prayer, holiness, Prophet S.P. Olabanji, Ondo church, Nigeria ministry, Christian community, deliverance ministry",
+  openGraph: {
+    title: "WOTREM | World Thunder Revival And Evangelical Ministry",
+    description: "Experience powerful worship, community fellowship, and spiritual growth at WOTREM.",
+    type: "website",
+    url: "https://www.worldthunderministry.org",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dmkchjjfa/image/upload/w_1200,q_auto,f_auto//v1745148629/_DSC0196_owsssq.jpg",
+        width: 1200,
+        height: 630,
+        alt: "WOTREM Church Worship",
+      },
+    ],
+    siteName: "World Thunder Revival And Evangelical Ministry",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "WOTREM | World Thunder Revival And Evangelical Ministry",
+    description: "Experience powerful worship, community fellowship, and spiritual growth at WOTREM.",
+    images: ["https://res.cloudinary.com/dmkchjjfa/image/upload/w_1200,q_auto,f_auto//v1745148629/_DSC0196_owsssq.jpg"],
+  },
+  alternates: {
+    canonical: "https://www.worldthunderministry.org",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  authors: [{ name: "Prophet S.P. Olabanji" }],
+  category: "Religion",
+  verification: {
+    // Add verification codes when available
+    // google: "google-site-verification-code",
+  },
+}
 
 export default function Home() {
   return (

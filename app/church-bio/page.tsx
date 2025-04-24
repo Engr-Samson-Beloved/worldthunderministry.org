@@ -1,6 +1,40 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About WOTREM | World Thunder Revival And Evangelical Ministry",
+  description:
+    "Learn about World Thunder Revival And Evangelical Ministry (WOTREM) - our history, vision, mission, core values, and beliefs. A beacon of holiness and prayer since 1997.",
+  keywords:
+    "WOTREM, World Thunder Revival And Evangelical Ministry, church history, Christian values, church mission, Prophet S.P. Olabanji, Ondo church, Nigeria ministry, holiness, prayer",
+  openGraph: {
+    title: "About WOTREM | World Thunder Revival And Evangelical Ministry",
+    description:
+      "Learn about World Thunder Revival And Evangelical Ministry - our history, vision, mission, core values, and beliefs.",
+    type: "website",
+    url: "https://www.worldthunderministry.org/church-bio",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dmkchjjfa/image/upload/v1745149325/logo_jweqah.png",
+        width: 1200,
+        height: 1200,
+        alt: "WOTREM Church Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About WOTREM | World Thunder Revival And Evangelical Ministry",
+    description:
+      "Learn about World Thunder Revival And Evangelical Ministry - our history, vision, mission, core values, and beliefs.",
+    images: ["https://res.cloudinary.com/dmkchjjfa/image/upload/v1745149325/logo_jweqah.png"],
+  },
+  alternates: {
+    canonical: "https://www.worldthunderministry.org/church-bio",
+  },
+}
 
 export default function ChurchBioPage() {
   return (

@@ -7,15 +7,20 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "WOTREM - World Thunder Revival And Evangelical Ministry",
+  metadataBase: new URL("https://www.worldthunderministry.org"),
+  title: {
+    default: "WOTREM - World Thunder Revival And Evangelical Ministry",
+    template: "%s | WOTREM",
+  },
   description:
-    "Join us at World Thunder Revival And Evangelical Ministry for powerful worship, community and spiritual growth.",
-  keywords: "church, worship, ministry, faith, community, WOTREM, holiness, prayer",
+    "World Thunder Revival And Evangelical Ministry (WOTREM) - A beacon of holiness and prayer. Join us for powerful worship, community and spiritual growth.",
+  keywords:
+    "church, worship, ministry, faith, community, WOTREM, holiness, prayer, Prophet S.P. Olabanji, Ondo, Nigeria",
   openGraph: {
-    title: "WOTREM - World Thunder Revival And Evangelical Ministry",
-    description: "Join our community for worship and spiritual growth.",
     type: "website",
+    locale: "en_US",
     url: "https://www.worldthunderministry.org",
+    siteName: "World Thunder Revival And Evangelical Ministry",
     images: [
       {
         url: "https://res.cloudinary.com/dmkchjjfa/image/upload/v1745149325/logo_jweqah.png",
@@ -25,7 +30,27 @@ export const metadata: Metadata = {
       },
     ],
   },
-    generator: 'v0.dev'
+  twitter: {
+    card: "summary_large_image",
+    site: "@wotrem",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 }
 
 export default function RootLayout({
