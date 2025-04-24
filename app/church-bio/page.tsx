@@ -15,7 +15,7 @@ export default function ChurchBioPage() {
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Our Church</h1>
           <p className="text-xl text-blue-100 max-w-2xl">
-            World Thunder Revival And Evangelical Ministry (WOTREM) - A beacon of holiness and prayer since 1995.
+            World Thunder Revival And Evangelical Ministry (WOTREM) - A beacon of holiness and prayer since 1997.
           </p>
         </div>
       </div>
@@ -206,11 +206,11 @@ export default function ChurchBioPage() {
                 </li>
                 <li className="flex items-center">
                   <div className="h-2 w-2 bg-blue-700 rounded-full mr-2"></div>
-                  <span>Wednesday Bible Study: 6:00 PM - 8:00 PM</span>
+                  <span>Sunday Bible Study: 5:00 PM - 7:00 PM</span>
                 </li>
                 <li className="flex items-center">
                   <div className="h-2 w-2 bg-blue-700 rounded-full mr-2"></div>
-                  <span>Friday Prayer Meeting: 7:00 PM - 9:00 PM</span>
+                  <span>Friday Deliverance Meeting: 7:00 PM - 9:00 PM</span>
                 </li>
               </ul>
             </div>
